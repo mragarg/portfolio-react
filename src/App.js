@@ -8,29 +8,29 @@ import Main from './components/Main';
 
 function App() {
   return (
-    <div style={{height: '300px', position: 'relative'}}>
-    <Layout fixedHeader>
-        <Header title={<span><span style={{ color: '#ddd' }}>Area / </span><strong>The Title</strong></span>}>
-            <Navigation>
-                <Link to="/about">About</Link>
-                <Link to="/resume">Resume</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contact</Link>
-            </Navigation>
-        </Header>
-        <Drawer title="Title">
-            <Navigation>
-                <Link to="/about">About</Link>
-                <Link to="/resume">Resume</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contact</Link>
-            </Navigation>
-        </Drawer>
-        <Content>
-          <Main />
-        </Content>
-    </Layout>
-</div>
+    <div className="">
+        <Layout>
+            <Header className="header-color" title="Ashish Garg" scroll>
+                <Navigation>
+                  <Link to="/about">About</Link>
+                  <Link to="/resume">Resume</Link>
+                  <Link to="/projects">Projects</Link>
+                  <Link to="/contact">Contact</Link>
+                </Navigation>
+            </Header>
+            <Drawer title="Ashish Garg">
+                <Navigation>
+                  <Link to="/about">About</Link>
+                  <Link to="/resume">Resume</Link>
+                  <Link to="/projects">Projects</Link>
+                  <Link to="/contact">Contact</Link>
+                </Navigation>
+            </Drawer>
+            <Content>
+              <Main />
+            </Content>
+        </Layout>
+    </div>
   );
 }
 
