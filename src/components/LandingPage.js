@@ -15,10 +15,19 @@ export class LandingPage extends React.Component {
 
               <div className="banner-text">
                 <h1>Full Stack Web Developer</h1>
-
-              <hr/>
+                <hr/>
                 <p> Java | React | HTML/CSS | Bootstrap | Postgres | C++</p>
+                <div className="social-links">
+                  {/* LinkedIn */}
+                  <a href="http://duckduckgo.com" target="_blank" rel="noopener noreferrer">
+                    <i className="fa fa-linkedin-square"  aria-hidden="true" />
+                  </a>
+                  {/* GitHub */}
+                  <a href="http://duckduckgo.com" target="_blank" rel="noopener noreferrer">
+                    <i className="fa fa-github-square"  aria-hidden="true" />
+                  </a>
 
+                </div>
               </div>
             </Cell>
           </Grid>
