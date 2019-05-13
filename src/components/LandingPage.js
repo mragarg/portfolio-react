@@ -14,16 +14,16 @@ export class LandingPage extends React.Component {
               />
 
               <div className="banner-text">
-                <h1>Full Stack Web Developer</h1>
+                <h1>Software Engineer</h1>
                 <hr/>
-                <p> Java | React | HTML/CSS | Bootstrap | Postgres | C++</p>
+                <p> Java | React | HTML/CSS | Bootstrap | Postgres | C++ | Node | ES6 | Python </p>
                 <div className="social-links">
                   {/* LinkedIn */}
-                  <a href="http://duckduckgo.com" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.linkedin.com/in/mragarg/" target="_blank" rel="noopener noreferrer">
                     <i className="fa fa-linkedin-square"  aria-hidden="true" />
                   </a>
                   {/* GitHub */}
-                  <a href="http://duckduckgo.com" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/mragarg" target="_blank" rel="noopener noreferrer">
                     <i className="fa fa-github-square"  aria-hidden="true" />
                   </a>
 
