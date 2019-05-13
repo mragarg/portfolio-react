@@ -10,7 +10,16 @@ export class LandingPage extends React.Component {
               <img 
                 src="https://png.pngtree.com/svg/20170128/avatar_indian_man_beard_779480.png"
                 alt="Avatar"
+                className="avatar-img"
               />
+
+              <div className="banner-text">
+                <h1>Full Stack Web Developer</h1>
+
+              <hr/>
+                <p> Java | React | HTML/CSS | Bootstrap | Postgres | C++</p>
+
+              </div>
             </Cell>
           </Grid>
         </div>
