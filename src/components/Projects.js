@@ -16,6 +16,8 @@ export class Projects extends React.Component {
     _toggleCategories = () => {
         if(this.state.activeTab === 0){
             return(
+                <div>
+                    {/* PROJECT - Nu.Trac */}
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Nu.Trac</CardTitle>
                     <CardText>
@@ -26,10 +28,41 @@ export class Projects extends React.Component {
                         <Button colored>GitHub</Button>
                         <Button colored>Live Demo</Button>
                     </CardActions>
-                    <CardMenu style={{color: '#fff'}}>
+                    {/* Not needed. Not implementing a share button. */}
+                    {/* <CardMenu style={{color: '#fff'}}>
                         <IconButton name="share" />
-                    </CardMenu>
+                    </CardMenu> */}
                 </Card>
+                {/* Project - PawPii */}
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>PawPii</CardTitle>
+                    <CardText>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Mauris sagittis pellentesque lacus eleifend lacinia...
+                    </CardText>
+                    <CardActions border>
+                        <Button colored>GitHub</Button>
+                        <Button colored>Live Demo</Button>
+                    </CardActions>
+                </Card>
+                {/* Project - PyGame Monster Game */}
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Monster Game</CardTitle>
+                    <CardText>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Mauris sagittis pellentesque lacus eleifend lacinia...
+                    </CardText>
+                    <CardActions border>
+                        <Button colored>GitHub</Button>
+                    </CardActions>
+                    {/* Not needed. Not implementing a share button. */}
+                    {/* <CardMenu style={{color: '#fff'}}>
+                        <IconButton name="share" />
+                    </CardMenu> */}
+                </Card>
+                </div>
+
+                
             );
         }
     }
