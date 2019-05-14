@@ -1,5 +1,7 @@
 import React from 'react';
-import { Tabs, Tab } from 'react-mdl';
+import { Tabs, Tab, Grid, Cell, 
+    Card, CardTitle, CardActions, 
+    Button, CardMenu, IconButton, CardText } from 'react-mdl';
 
 export class Projects extends React.Component {
     constructor(props) {
@@ -10,12 +12,24 @@ export class Projects extends React.Component {
       }
     }
 
+    // Add more if statements if deciding to separate into multiple categories
     _toggleCategories = () => {
         if(this.state.activeTab === 0){
             return(
-                <div>
-                   <h1>This is React</h1>
-                </div>
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Nu.Trac</CardTitle>
+                    <CardText>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Mauris sagittis pellentesque lacus eleifend lacinia...
+                    </CardText>
+                    <CardActions border>
+                        <Button colored>GitHub</Button>
+                        <Button colored>Live Demo</Button>
+                    </CardActions>
+                    <CardMenu style={{color: '#fff'}}>
+                        <IconButton name="share" />
+                    </CardMenu>
+                </Card>
             );
         }
     }
@@ -33,7 +47,11 @@ export class Projects extends React.Component {
             </Tabs>
 
             <section className="projects-grid">
-                {this._toggleCategories()}
+            <Grid className="projects-grid">
+                <Cell col={12}>
+                    <div className="content">{this._toggleCategories()}</div>
+                </Cell>
+            </Grid>
             </section>
         </div>
         )
