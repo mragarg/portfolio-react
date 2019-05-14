@@ -18,48 +18,46 @@ export class Projects extends React.Component {
             return(
                 <div>
                     {/* PROJECT - Nu.Trac */}
-                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Nu.Trac</CardTitle>
-                    <CardText>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Mauris sagittis pellentesque lacus eleifend lacinia...
-                    </CardText>
-                    <CardActions border>
-                        <Button colored>GitHub</Button>
-                        <Button colored>Live Demo</Button>
-                    </CardActions>
-                    {/* Not needed. Not implementing a share button. */}
-                    {/* <CardMenu style={{color: '#fff'}}>
-                        <IconButton name="share" />
-                    </CardMenu> */}
-                </Card>
-                {/* Project - PawPii */}
-                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>PawPii</CardTitle>
-                    <CardText>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Mauris sagittis pellentesque lacus eleifend lacinia...
-                    </CardText>
-                    <CardActions border>
-                        <Button colored>GitHub</Button>
-                        <Button colored>Live Demo</Button>
-                    </CardActions>
-                </Card>
-                {/* Project - PyGame Monster Game */}
-                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Monster Game</CardTitle>
-                    <CardText>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Mauris sagittis pellentesque lacus eleifend lacinia...
-                    </CardText>
-                    <CardActions border>
-                        <Button colored>GitHub</Button>
-                    </CardActions>
-                    {/* Not needed. Not implementing a share button. */}
-                    {/* <CardMenu style={{color: '#fff'}}>
-                        <IconButton name="share" />
-                    </CardMenu> */}
-                </Card>
+                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                        <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Nu.Trac</CardTitle>
+                        <CardText>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Mauris sagittis pellentesque lacus eleifend lacinia...
+                        </CardText>
+                        <CardActions border>
+                            <Button colored href="https://github.com/mragarg/nu-trac">GitHub</Button>
+                            <Button colored href="https://nutrac.ashishgarg.dev/">Live Demo</Button>
+                        </CardActions>
+                        {/* Not needed. Not implementing a share button. */}
+                        {/* <CardMenu style={{color: '#fff'}}>
+                            <IconButton name="share" />
+                        </CardMenu> */}
+                    </Card>
+
+                    {/* Project - PawPii */}
+                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                        <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>PawPii</CardTitle>
+                        <CardText>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Mauris sagittis pellentesque lacus eleifend lacinia...
+                        </CardText>
+                        <CardActions border>
+                            <Button colored href="https://github.com/mragarg/week9-backend-project">GitHub</Button>
+                            <Button colored href="https://pawpii.ashishgarg.dev/">Live Demo</Button>
+                        </CardActions>
+                    </Card>
+
+                    {/* Project - PyGame Monster Game */}
+                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                        <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Monster Game</CardTitle>
+                        <CardText>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Mauris sagittis pellentesque lacus eleifend lacinia...
+                        </CardText>
+                        <CardActions border>
+                            <Button colored href="https://github.com/mragarg/monster-game-python">GitHub</Button>
+                        </CardActions>
+                    </Card>
                 </div>
 
                 
