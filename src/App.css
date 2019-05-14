@@ -58,3 +58,7 @@
   font-size: 4em;
   padding: 8px;
 }
+
+.projects-grid {
+  display: flex;
+}

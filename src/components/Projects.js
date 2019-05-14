@@ -16,7 +16,7 @@ export class Projects extends React.Component {
     _toggleCategories = () => {
         if(this.state.activeTab === 0){
             return(
-                <div>
+                <div className="projects-grid">
                     {/* PROJECT - Nu.Trac */}
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                         <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Nu.Trac</CardTitle>
@@ -77,13 +77,11 @@ export class Projects extends React.Component {
                 <Tab>Projects</Tab>
             </Tabs>
 
-            <section className="projects-grid">
-            <Grid className="projects-grid">
+            <Grid >
                 <Cell col={12}>
                     <div className="content">{this._toggleCategories()}</div>
                 </Cell>
             </Grid>
-            </section>
         </div>
         )
     };
