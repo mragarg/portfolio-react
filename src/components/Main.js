@@ -14,7 +14,10 @@ export default function Main() {
             <Route exact path="/about" component={AboutMe} />
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/projects" component={Projects} />
-            <Route exact path="/resume" component={Resume} />
+            <Route exact path="/resume" component={() => {
+                window.location.href = 'https://drive.google.com/file/d/1VK2BY0yyTcMtizKBS3NUq33F64JQqIvk/view?usp=sharing';
+                return null;
+            }} />
         </Switch>
     );
 }

@@ -23,8 +23,8 @@ export class Projects extends React.Component {
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                         <CardTitle style={{color: 'white', height: '176px', background: 'url(/images/Nutrac.png) center / cover'}}>Nu.Trac</CardTitle>
                         <CardText>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Mauris sagittis pellentesque lacus eleifend lacinia...
+                            A nutritional web application that provides a detailed recipe along with nutritional 
+                            information based on the user’s dietary preferences and mealtime.
                         </CardText>
                         <CardActions border>
                             <Button colored href="https://github.com/mragarg/nu-trac">GitHub</Button>
@@ -40,8 +40,8 @@ export class Projects extends React.Component {
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                         <CardTitle style={{color: '#fff', height: '176px', background: 'url(/images/PawPii.png) center / cover'}}>PawPii</CardTitle>
                         <CardText>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Mauris sagittis pellentesque lacus eleifend lacinia...
+                            An adoption website utilizing a database (Postgres) to display puppies for adoption at local shelters. Shelters are able to manage 
+                            their catalog by adding and removing puppies.
                         </CardText>
                         <CardActions border>
                             <Button colored href="https://github.com/mragarg/week9-backend-project">GitHub</Button>
@@ -51,10 +51,9 @@ export class Projects extends React.Component {
 
                     {/* Project - PyGame Monster Game */}
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                        <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Monster Game</CardTitle>
+                        <CardTitle style={{color: '#fff', height: '176px', background: 'url(/images/MonsterGame.png) center / cover'}}>Monster Game</CardTitle>
                         <CardText>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Mauris sagittis pellentesque lacus eleifend lacinia...
+                            A Catch the Monster game in which the user is required to apprehend a monster while avoid being captured by goblins.
                         </CardText>
                         <CardActions border>
                             <Button colored href="https://github.com/mragarg/monster-game-python">GitHub</Button>

@@ -10,13 +10,13 @@ export class Contact extends React.Component {
                     <Cell col={6}>
                         <h2>Ashish Garg</h2>
                         <img 
-                            src="https://png.pngtree.com/svg/20170128/avatar_indian_man_beard_779480.png"
+                            src="/images/avatar.png"
                             alt="Avatar"
                             style={{height: '250px'}}
                         />
-                        <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>
+                        {/* <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                        </p>
+                        </p> */}
                     </Cell>
 
                     <Cell col={6}>
