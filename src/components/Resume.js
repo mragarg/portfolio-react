@@ -35,7 +35,22 @@ export class Resume extends React.Component {
             </Cell>
             <Cell className="resume-right-col" col={8}>
               <h2>Education</h2>
-              <Education />
+              <Education
+                startDate='August 2013'
+                endDate=' December 2019'
+                schoolName='University of Georgia'
+                schoolDescription='Bachelors of Science (B.S.) in Biology, Psychology, and Computer Science'
+              />
+              <Education
+                startDate='February 2019'
+                endDate='June 2019'
+                schoolName='DigitalCrafts Bootcamp'
+                schoolDescription='Software Engineer Certificate'
+              />
+
+              <hr style={{borderTop: '3px solid #e22947'}}/>
+
+              <h2>Experience</h2>
             </Cell>
           </Grid>
         </div>
