@@ -1,6 +1,8 @@
 import React from 'react';
 import { Grid, Cell } from 'react-mdl';
 
+import Education from './Education';
+
 export class Resume extends React.Component {
     render() {
       return (
@@ -32,7 +34,8 @@ export class Resume extends React.Component {
               <p>ashishgarg.dev</p>
             </Cell>
             <Cell className="resume-right-col" col={8}>
-              Right Side
+              <h2>Education</h2>
+              <Education />
             </Cell>
           </Grid>
         </div>
