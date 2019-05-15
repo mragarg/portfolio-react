@@ -1,7 +1,9 @@
 import React from 'react';
 import { Tabs, Tab, Grid, Cell, 
     Card, CardTitle, CardActions, 
-    Button, CardMenu, IconButton, CardText } from 'react-mdl';
+    Button, 
+    // CardMenu, IconButton, 
+    CardText } from 'react-mdl';
 
 export class Projects extends React.Component {
     constructor(props) {
