@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="">
         <Layout>
-            <Header className="header-color" title="Ashish Garg" scroll>
+  <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">Ashish Garg</Link>} scroll>
                 <Navigation>
                   <Link to="/about">About</Link>
                   <Link to="/resume">Resume</Link>
