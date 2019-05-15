@@ -21,7 +21,7 @@ export class Projects extends React.Component {
                 <div className="projects-grid">
                     {/* PROJECT - Nu.Trac */}
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                        <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Nu.Trac</CardTitle>
+                        <CardTitle style={{color: 'white', height: '176px', background: 'url(/images/Nutrac.png) center / cover'}}>Nu.Trac</CardTitle>
                         <CardText>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Mauris sagittis pellentesque lacus eleifend lacinia...
@@ -38,7 +38,7 @@ export class Projects extends React.Component {
 
                     {/* Project - PawPii */}
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                        <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>PawPii</CardTitle>
+                        <CardTitle style={{color: '#fff', height: '176px', background: 'url(/images/PawPii.png) center / cover'}}>PawPii</CardTitle>
                         <CardText>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Mauris sagittis pellentesque lacus eleifend lacinia...
