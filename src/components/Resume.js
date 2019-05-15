@@ -2,6 +2,7 @@ import React from 'react';
 import { Grid, Cell } from 'react-mdl';
 
 import Education from './Education';
+import Experience from './Experience';
 
 export class Resume extends React.Component {
     render() {
@@ -51,6 +52,24 @@ export class Resume extends React.Component {
               <hr style={{borderTop: '3px solid #e22947'}}/>
 
               <h2>Experience</h2>
+              <Experience 
+                startDate='June 2013'
+                endDate=' July 2018'
+                jobName='Doraville Package Store'
+                jobTitle='Shift Manager'
+                jobDescription='Improved customer experience by delivering a unique customer experience during sales and transactions as well as managed staff schedules to maximize productivity'
+              />
+              <Experience 
+                startDate='February 2019'
+                endDate=' June 2019'
+                jobName='DigitalCrafts'
+                jobTitle='Student Software Engineer'
+                jobDescription='NEED TO COMPLETE'
+              />
+
+              <hr style={{borderTop: '3px solid #e22947'}}/>
+
+              <h2>Skills</h2>
             </Cell>
           </Grid>
         </div>
